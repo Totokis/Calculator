@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Calculator"
         mc:Ignorable="d"
-        Title="Calculator" Height="450" Width="280">
+        Title="Calculator" Height="450" Width="480">
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition/>
@@ -28,7 +28,7 @@
                 <RowDefinition/>
             </Grid.RowDefinitions>
 
-            <Button x:Name="btn7" Grid.Column="0" Grid.Row="2" Click="btn7_Click">7</Button>
+            <Button x:Name="btn7" Grid.Column="0" Grid.Row="2" Click="btn7_Click" Content="7"></Button>
             <Button x:Name="btn8" Grid.Column="1" Grid.Row="2" Click="btn8_Click">8</Button>
             <Button x:Name="btn9" Grid.Column="2" Grid.Row="2" Click="btn9_Click">9</Button>
 
@@ -69,5 +69,13 @@
             <TextBox x:Name="texBoxDev_2" IsReadOnly="True" FontSize="30" BorderThickness="0" Grid.Row="1" Grid.ColumnSpan="4" TextAlignment="Right" VerticalAlignment="Top">0</TextBox>
             
         </Grid>
+  
+
+
+
+
+
+
+
     </Grid>
 </Window>
