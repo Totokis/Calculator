@@ -21,6 +21,7 @@ namespace Calculator
     /// Interaction logic for MainWindow.xaml
     /// </summary>
    
+   //TODOMetody szablonowe, oraz Strategia by uporządkować
     public partial class MainWindow : Window
     {
        
